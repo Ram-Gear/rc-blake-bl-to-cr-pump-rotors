@@ -35,11 +35,13 @@ input{border:none!important;background:#fff8c5!important;width:auto!important;ma
 td.o{background:#fff!important}
 .print-meta{display:block;margin-top:8px;padding-top:4px;border-top:1px solid #999;font-size:9px;color:#333;break-inside:avoid}
 }
+.card{border-top:5px solid #2E7386!important;border-radius:6px}
+div.card{display:inline-block;overflow:hidden;vertical-align:top}
 </style></head><body>
 <header><img src="icon.png" alt=""><div><h1>Rotor Backlash to Comparator Readings, Chordal & Span (Herringbone Pump Rotors)</h1><p>R.C. Blake Company program, converted from bl-to-cr-pump-rotors.xls. Yellow cells are inputs; hover any result to see its original Excel formula.</p></div></header>
 <main>
 <div class="bar"><button id="reset">Reset to sheet values</button><button onclick="window.print()">Print</button><a class="btn" id="help-link" href="help.html" style="padding:5px 10px;border:1px solid #888;border-radius:3px;background:#fff;color:#111;text-decoration:none;font-size:13px">Help &amp; video</a><span class="hint">Results update as you type.</span></div>
-<table><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th><th>K</th><th>L</th><th>M</th></tr>
+<div class="card"><table><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th><th>K</th><th>L</th><th>M</th></tr>
 <tr><th>1</th><td></td><td></td><td></td><td></td><td></td><td></td><td class="b">CONVERTING GEARSET BACKLASH SPECIFICATIONS&nbsp;  </td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><th>2</th><td></td><td></td><td></td><td></td><td></td><td></td><td class="b">TO COMPARATOR READINGS, CHORDAL DIMENSIONS &amp; SPAN DIMENSIONS</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><th>4</th><td></td><td></td><td></td><td></td><td></td><td></td><td class="b">FOR HERRINGBONE GEAR PUMP ROTORS ON STANDARD OR EXTENDED CENTERS</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -80,8 +82,8 @@ td.o{background:#fff!important}
 <tr><th>103</th><td></td><td class="b">1924 KENSINGTON DRIVE</td><td></td><td></td><td></td><td>LOCATED IN FOLDER:</td><td>PROGRAMS ROTORS</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><th>104</th><td></td><td class="b">FORT WORTH, TX 76110-6615&nbsp; &nbsp; &nbsp; </td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><th>105</th><td></td><td class="b">PHO: 817-923-1228&nbsp; FAX: 817-923-1328 </td><td></td><td></td><td>REV: </td><td></td><td></td><td>24 FEB 10</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><th>106</th><td></td><td class="b">E-MAIL: rogercblake@att.net</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="b">PROGRAM: ROTOR BL TO CR&#x27;S B&amp;S SPAN&nbsp;  </td></tr></table>
-<details><summary>Hidden working calculations (rows 50–92 were hidden in the original sheet)</summary>
+<tr><th>106</th><td></td><td class="b">E-MAIL: rogercblake@att.net</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="b">PROGRAM: ROTOR BL TO CR&#x27;S B&amp;S SPAN&nbsp;  </td></tr></table></div>
+<details class="card"><summary>Hidden working calculations (rows 50–92 were hidden in the original sheet)</summary>
 <table><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th><th>K</th><th>L</th><th>M</th></tr>
 <tr><th>51</th><td></td><td>% SET BL =</td><td><input data-a="C51" value="50" title="C51"></td><td>APPLIED TO PINION</td><td></td><td></td><td></td><td>CRG =</td><td class="o" data-o="I51" data-fmt="0.000000" title="I51: =I12"></td><td class="o" data-o="J51" data-fmt="0.000000" title="J51: =J12"></td><td></td><td class="o" data-o="L51" data-fmt="0.000000" title="L51: =L85/2"></td><td></td></tr>
 <tr><th>52</th><td></td><td>% SET BL =</td><td><input data-a="C52" value="50" title="C52"></td><td>APPLIED TO GEAR</td><td></td><td></td><td></td><td>CRT =</td><td class="o" data-o="I52" data-fmt="0.000000" title="I52: =I12+I51"></td><td class="o" data-o="J52" data-fmt="0.000000" title="J52: =J12+J51"></td><td></td><td class="o" data-o="L52" data-fmt="0.000000" title="L52: =L85"></td><td></td></tr>
